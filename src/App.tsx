@@ -4,7 +4,7 @@ import ProductPage from "./productpage";
 function App() {
   return (
     <>
-      <div className="max-w-5xl mx-auto py-10">
+      <div className="max-w-5xl mx-auto py-8">
         <ProductPage />
         {/* <ProductsEra /> */}
       </div>
