@@ -4,6 +4,18 @@ const api = axios.create({
     baseURL: "https://fakestoreapi.com",
 });
 
+const api2 = axios.create({
+    baseURL: "https://jsonplaceholder.typicode.com",
+});
+
+export const getPost2 = () => {
+    return api2.get("/posts");
+}
+
+export const PostData2 = (data: any) => {
+    return api2.post("/posts", data);
+}
+
 // get all method ()
 export const getPost = () => {
     return api.get("/products");
