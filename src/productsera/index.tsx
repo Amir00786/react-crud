@@ -39,7 +39,7 @@ export const ProductsEra = () => {
 // 🔹 Promise kya hai?
 // Promise ek JavaScript object hai jo future mein aapko value dega.
 // Wo value ya to:
-// Resolve (success) hogi → kaam sahi hua
+// Resolve (succes) hogi → kaam sahi hua
 // Reject (failure) hoga → error aaya
 // Matlab ke:
 // "Promise ek wada hai ke ya to data milega ya error."
