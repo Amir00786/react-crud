@@ -16,6 +16,15 @@ export const PostData2 = (data: any) => {
     return api2.post("/posts", data);
 }
 
+export const PostDelete2 = (id: any) => {
+    return api2.delete(`/posts/${id}`);
+}
+
+export const PostUpdate2 = (id: any, data: any) => {
+    return api2.put(`/posts/${id}`, data);
+}
+
+
 // get all method ()
 export const getPost = () => {
     return api.get("/products");
